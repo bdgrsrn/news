@@ -3,6 +3,7 @@ import {Browser, Route} from 'react-router-dom';
 import Nav from './Nav';
 import Sidebar from './admin/components/Sidebar';
 import Login from './admin/components/Login';
+import Dashboard from './admin/pages/Dashboard';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <Sidebar />
       <Login />
 
+      <Dashboard />
     </div>
   );
 }
