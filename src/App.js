@@ -5,7 +5,7 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-     Сайн уу? Энэ анхны react App шүү
+     Сайн уу? Энэ анхны react App шүү.
     </div>
   );
 }
