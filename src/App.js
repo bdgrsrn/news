@@ -1,5 +1,7 @@
 import React from 'react'
 import styled, { css, createGlobalStyle } from 'styled-components'
+// import ApolloClient, { from } from 'apollo-boost';
+// import { ApolloProvider } from 'react-apollo';
 
 // State
 import { Context, initialState, reducers } from './state/context'
@@ -35,6 +37,10 @@ const GlobalStyle = createGlobalStyle`
 		--spacer-4: calc(var(--base-pt) * 4px);
 	}
 `
+
+// const client= new ApolloClient({
+//    uri:'https://api-euwest.graphcms.com/v1/ck6gjtnqp6y7n01fm381c58z4/master'
+// });
 
 const App = () => {
 	const [state, dispatch] = React.useReducer(reducers, initialState)
