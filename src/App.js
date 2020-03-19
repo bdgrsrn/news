@@ -10,8 +10,14 @@ function App() {
     <div className="App">
     
      Сайн уу? Энэ анхны react App шүү.
-     sd fasd flskdhf ;asldfsdf sdf
-      s<Nav />
+     
+      <Nav />
+
+      <Sidebar />
+      <Login />
+
+      <Dashboard />
+    <Nav />
 
       <Sidebar />
       <Login />
