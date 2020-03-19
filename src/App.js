@@ -17,6 +17,7 @@ function App() {
       <Login />
 
       <Dashboard />
+    Энэ хэсгийг ашиглан дахин компонентүүдийг дуудаж байна
     <Nav />
 
       <Sidebar />
